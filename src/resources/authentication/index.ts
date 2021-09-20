@@ -18,15 +18,6 @@ const authentication: IErrorRes = {
     unauthorizedResource: {
       status: EHttpCode.FORBIDDEN,
     },
-    invalidRedirectionUrl: {
-      status: EHttpCode.BAD_REQUEST,
-    },
-    invalidState: {
-      status: EHttpCode.BAD_REQUEST,
-    },
-    wrongAuthorizationType: {
-      status: EHttpCode.BAD_REQUEST,
-    },
     tokenExpired: {
       status: EHttpCode.UNAUTHORIZED,
     },
