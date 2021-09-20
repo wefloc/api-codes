@@ -1,8 +1,8 @@
 name: Test
-on:
+"on":
   push:
     branches:
-      - main
+      - master
       - renovate/**
   pull_request:
     types:
