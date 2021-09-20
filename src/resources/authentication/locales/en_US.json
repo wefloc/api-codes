@@ -1,0 +1,9 @@
+{
+  "client": {
+    "loginFailed": "Wrong email or password",
+    "missingToken": "Missing authorization token",
+    "unauthorizedRoute": "Access denied",
+    "unauthorizedResource": "Access denied",
+    "tokenExpired": "Token expired"
+  }
+}
