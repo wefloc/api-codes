@@ -1,8 +1,8 @@
 {
-  "name": "@rimiti/api-codes",
+  "name": "@wefloc/api-codes",
   "version": "1.0.0",
   "description": "API codes",
-  "author": "Dimitri DO BAIRRO <dimitri.dobairro@dimsolution.com>",
+  "author": "Dimitri DO BAIRRO <dimitri.dobairro@wefloc.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -11,15 +11,15 @@
   "devDependencies": {
     "@types/jest": "27.0.1",
     "@types/node": "16.9.4",
+    "@typescript-eslint/eslint-plugin": "4.31.1",
+    "@typescript-eslint/parser": "4.31.1",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "4.0.0",
     "jest": "27.2.1",
     "prettier": "2.4.1",
     "ts-jest": "27.0.5",
-    "typescript": "4.4.3",
-    "@typescript-eslint/eslint-plugin": "4.30.0",
-    "@typescript-eslint/parser": "4.30.0",
-    "eslint": "7.32.0",
-    "eslint-config-prettier": "8.3.0",
-    "eslint-plugin-prettier": "4.0.0"
+    "typescript": "4.4.3"
   },
   "scripts": {
     "clean": "rm -rf coverage dist tmp",

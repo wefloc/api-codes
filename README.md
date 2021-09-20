@@ -7,8 +7,8 @@ This repository provides an interface to easily understand back-end errors from 
 
 ## Install
 
-```
-yarn add @rimiti/api-codes
+```bash
+yarn add @wefloc/api-codes
 ```
 
 ## How to use it?
@@ -27,7 +27,7 @@ The API use the following schema to return an error.
 You can then use the `errorKey` as follow :
 
 ```js
-import errors from '@rimiti/api-codes';
+import errors from '@wefloc/api-codes';
 
 // Get all codes
 errors.getAll();

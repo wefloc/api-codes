@@ -13,13 +13,13 @@ describe('/src/index.ts', () => {
     let err: Error|null = null;
 
     try {
-      errors.get('carts:badScope:cartNotFound');
+      errors.get('authentication:badScope:cartNotFound');
     } catch (e) {
       err = e;
     }
 
     expect(err).toStrictEqual(
-      Error('Scope was not found for key carts:badScope:cartNotFound'),
+      Error('Scope was not found for key authentication:badScope:cartNotFound'),
     );
   });
 
@@ -27,13 +27,13 @@ describe('/src/index.ts', () => {
     let err: Error|null = null;
 
     try {
-      errors.get('carts:client:notAnError');
+      errors.get('authentication:client:notAnError');
     } catch (e) {
       err = e;
     }
 
     expect(err).toStrictEqual(
-      Error('Message was not found for key carts:client:notAnError'),
+      Error('Message was not found for key authentication:client:notAnError'),
     );
   });
 
@@ -70,7 +70,7 @@ describe('/src/index.ts', () => {
   // This test ensure every single code has a translation registered
   it('should find a translation for every single code', () => {
     for (const resource of Object.keys(codes)) {
-      for (const scope of ['client', 'internal', 'external']) {
+      for (const scope of ['client']) {
         for (const error of Object.keys(codes[resource][scope])) {
           const errorKey = [resource, scope, error].join(':');
 
