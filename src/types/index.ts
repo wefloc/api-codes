@@ -78,12 +78,6 @@ interface IErrorRes {
   client: {
     [message: string]: ICode;
   };
-  internal: {
-    [message: string]: ICode;
-  };
-  external: {
-    [message: string]: ICode;
-  };
   i18n: II18n;
 }
 
@@ -94,12 +88,6 @@ interface IErrors {
 type II18n = {
   [lang in ELocal]: {
     client: {
-      [message: string]: string;
-    };
-    internal: {
-      [message: string]: string;
-    };
-    external: {
       [message: string]: string;
     };
   };
