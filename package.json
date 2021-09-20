@@ -5,9 +5,6 @@
   "author": "Dimitri DO BAIRRO <dimitri.dobairro@wefloc.com>",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "publishConfig": {
-    "access": "restricted"
-  },
   "devDependencies": {
     "@types/jest": "27.0.1",
     "@types/node": "16.9.4",
