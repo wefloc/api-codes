@@ -19,6 +19,7 @@
     "typescript": "4.4.3"
   },
   "scripts": {
+    "prepublishOnly": "yarn clean && yarn build",
     "clean": "rm -rf coverage dist tmp",
     "build": "yarn clean && tsc",
     "build:watch": "tsc -w",
