@@ -1,7 +1,9 @@
 {
   "client": {
     "formInvalidEmail": "Invalid email",
-    "formInvalidPassword": "Invalid password"
+    "formInvalidPassword": "Invalid password",
+    "userNotFound": "User not found",
+    "wrongPassword": "Incorrect password"
   },
   "internal": {},
   "external": {}
