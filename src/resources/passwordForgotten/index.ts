@@ -7,12 +7,12 @@ import * as en from './locales/en.json';
 const i18n: II18n = { fr, en };
 
 export default {
-  client: {},
-  internal: {
-    unexpected: {
-      status: EHttpCode.INTERNAL_SERVER_ERROR,
+  client: {
+    accountNotFound: {
+      status: EHttpCode.BAD_REQUEST,
     },
   },
+  internal: {},
   external: {},
   i18n,
 };
