@@ -8,6 +8,9 @@ const i18n: II18n = { fr, en };
 
 export default {
   client: {
+    formInvalidEmail: {
+      status: EHttpCode.BAD_REQUEST,
+    },
     accountNotFound: {
       status: EHttpCode.BAD_REQUEST,
     },
