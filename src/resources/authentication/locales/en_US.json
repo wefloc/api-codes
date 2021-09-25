@@ -5,5 +5,7 @@
     "unauthorizedRoute": "Access denied",
     "unauthorizedResource": "Access denied",
     "tokenExpired": "Token expired"
-  }
+  },
+  "internal": {},
+  "external": {}
 }

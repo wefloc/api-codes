@@ -78,6 +78,12 @@ interface IErrorRes {
   client: {
     [message: string]: ICode;
   };
+  internal: {
+    [message: string]: ICode;
+  };
+  external: {
+    [message: string]: ICode;
+  };
   i18n: II18n;
 }
 

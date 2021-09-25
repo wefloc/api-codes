@@ -6,20 +6,11 @@ const i18n: II18n = { fr_FR, en_US };
 
 const authentication: IErrorRes = {
   client: {
-    loginFailed: {
-      status: EHttpCode.UNAUTHORIZED,
+    formInvalidEmail: {
+      status: EHttpCode.BAD_REQUEST,
     },
-    missingToken: {
-      status: EHttpCode.UNAUTHORIZED,
-    },
-    unauthorizedRoute: {
-      status: EHttpCode.FORBIDDEN,
-    },
-    unauthorizedResource: {
-      status: EHttpCode.FORBIDDEN,
-    },
-    tokenExpired: {
-      status: EHttpCode.UNAUTHORIZED,
+    formInvalidPassword: {
+      status: EHttpCode.BAD_REQUEST,
     },
   },
   internal: {},
