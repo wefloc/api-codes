@@ -22,6 +22,8 @@ const authentication: IErrorRes = {
       status: EHttpCode.UNAUTHORIZED,
     },
   },
+  internal: {},
+  external: {},
   i18n,
 };
 

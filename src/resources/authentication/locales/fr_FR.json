@@ -5,5 +5,7 @@
     "unauthorizedRoute": "Accès refusé",
     "unauthorizedResource": "Accès refusé",
     "tokenExpired": "Token expiré"
-  }
+  },
+  "internal": {},
+  "external": {}
 }

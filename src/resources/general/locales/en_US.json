@@ -1,0 +1,7 @@
+{
+  "client": { },
+  "internal": {
+    "unexpected": "An unexpected error occurred"
+  },
+  "external": {}
+}
