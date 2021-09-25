@@ -1,0 +1,7 @@
+{
+  "client": {
+    "formEmailAlreadyExists": "Un compte existe déjà avec cet email"
+  },
+  "internal": {},
+  "external": {}
+}
