@@ -14,6 +14,8 @@ describe('/src/utils/codeGetter.ts', () => {
           status: EHttpCode.NOT_FOUND,
         },
       },
+      internal: {},
+      external: {},
       i18n: {
         en_US: {
           client: {
