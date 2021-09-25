@@ -8,6 +8,12 @@ const i18n: II18n = { fr, en };
 
 const signUp: IErrorRes = {
   client: {
+    formInvalidEmail: {
+      status: EHttpCode.BAD_REQUEST,
+    },
+    formInvalidPassword: {
+      status: EHttpCode.BAD_REQUEST,
+    },
     formEmailAlreadyExists: {
       status: EHttpCode.BAD_REQUEST,
     },
