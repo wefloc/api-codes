@@ -17,12 +17,12 @@ describe('/src/utils/codeGetter.ts', () => {
       internal: {},
       external: {},
       i18n: {
-        en_US: {
+        en: {
           client: {
             testError2: 'testError2_en_US',
           },
         },
-        fr_FR: {
+        fr: {
           client: {
             testError2: 'testError2_fr_FR',
           },
@@ -32,7 +32,7 @@ describe('/src/utils/codeGetter.ts', () => {
   };
 
   beforeEach(() => {
-    errorsMock = new CodeGetter(fakeCodes, ELocal.fr_FR);
+    errorsMock = new CodeGetter(fakeCodes, ELocal.fr);
   });
 
   it('should get one error by key', () => {
@@ -50,24 +50,24 @@ describe('/src/utils/codeGetter.ts', () => {
   });
 
   it('should get translation of error with given lang', () => {
-    const err = errorsMock.get('carts:client:testError2').i18n(ELocal.en_US);
+    const err = errorsMock.get('carts:client:testError2').i18n(ELocal.en);
 
     expect(typeof err).toBe('string');
     expect(err).toBe('testError2_en_US');
   });
 
   it('should throw an error', () => {
-    let err: Error|null = null;
+    let err: Error | null = null;
 
     try {
-      errorsMock.get('carts:client:testError').i18n(ELocal.en_US);
+      errorsMock.get('carts:client:testError').i18n(ELocal.en);
     } catch (e) {
       err = e;
     }
 
     expect(err).toStrictEqual(
       Error(
-        'Translation for key carts:client:testError in en_US was not found',
+        'Translation for key carts:client:testError in en was not found',
       ),
     );
   });
