@@ -6,18 +6,9 @@ import * as en from './locales/en.json';
 
 const i18n: II18n = { fr, en };
 
-const signIn: IErrorRes = {
+const signUp: IErrorRes = {
   client: {
-    formInvalidEmail: {
-      status: EHttpCode.BAD_REQUEST,
-    },
-    formInvalidPassword: {
-      status: EHttpCode.BAD_REQUEST,
-    },
-    userNotFound: {
-      status: EHttpCode.BAD_REQUEST,
-    },
-    wrongPassword: {
+    formEmailAlreadyExists: {
       status: EHttpCode.BAD_REQUEST,
     },
   },
@@ -26,4 +17,4 @@ const signIn: IErrorRes = {
   i18n,
 };
 
-export default signIn;
+export default signUp;
