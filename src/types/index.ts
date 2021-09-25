@@ -61,8 +61,8 @@ enum EHttpCode {
 }
 
 enum ELocal {
-  'fr_FR' = 'fr_FR',
-  'en_US' = 'en_US',
+  'fr' = 'fr',
+  'en' = 'en',
 }
 
 interface ICode {

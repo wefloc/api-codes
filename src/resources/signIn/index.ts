@@ -1,8 +1,10 @@
 import { II18n, IErrorRes, EHttpCode } from '../../types';
-import * as fr_FR from './locales/fr_FR.json';
-import * as en_US from './locales/en_US.json';
 
-const i18n: II18n = { fr_FR, en_US };
+// Locales
+import * as fr from './locales/fr.json';
+import * as en from './locales/en.json';
+
+const i18n: II18n = { fr, en };
 
 const authentication: IErrorRes = {
   client: {
