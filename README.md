@@ -52,8 +52,8 @@ English is defined as the default language so calling `.i18n()` without argument
 
 ```js
 errors.get('orders:client:cartTripNotFound').i18n(); // => string
-errors.get('orders:client:cartTripNotFound').i18n('fr_FR'); // => string
-errors.get('orders:client:cartTripNotFound').i18n('en_US'); // => string
+errors.get('orders:client:cartTripNotFound').i18n('fr'); // => string
+errors.get('orders:client:cartTripNotFound').i18n('en'); // => string
 errors.get('orders:client:cartTripNotFound').i18n('Not-A-Language'); // => throws an error
 ```
 
