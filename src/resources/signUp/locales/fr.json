@@ -2,6 +2,7 @@
   "client": {
     "formInvalidEmail": "Email invalide",
     "formInvalidPassword": "Mot de passe invalide",
+    "formInvalidLanguage": "Langue invalide",
     "formEmailAlreadyExists": "Un compte existe déjà avec cet email"
   },
   "internal": {},

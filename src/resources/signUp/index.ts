@@ -14,6 +14,9 @@ const signUp: IErrorRes = {
     formInvalidPassword: {
       status: EHttpCode.BAD_REQUEST,
     },
+    formInvalidLanguage: {
+      status: EHttpCode.BAD_REQUEST,
+    },
     formEmailAlreadyExists: {
       status: EHttpCode.BAD_REQUEST,
     },
