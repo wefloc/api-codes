@@ -14,6 +14,12 @@ const authentication: IErrorRes = {
     formInvalidPassword: {
       status: EHttpCode.BAD_REQUEST,
     },
+    userNotFound: {
+      status: EHttpCode.BAD_REQUEST,
+    },
+    wrongPassword: {
+      status: EHttpCode.BAD_REQUEST,
+    },
   },
   internal: {},
   external: {},
