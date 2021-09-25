@@ -1,5 +1,7 @@
 {
   "client": {
+    "formInvalidEmail": "Invalid email",
+    "formInvalidPassword": "Invalid password",
     "formEmailAlreadyExists": "Email already exist"
   },
   "internal": {},
